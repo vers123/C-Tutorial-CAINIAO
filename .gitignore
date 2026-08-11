@@ -1,0 +1,30 @@
+# Build output directories
+build/
+*/build/
+**/build/
+
+# Compiled object files
+*.o *.obj
+
+# Executables & libraries
+*.exe *.dll *.so *.dylib *.a *.lib
+
+# Debug symbols
+*.dSYM/ *.pdb *.idb *.ilk *.exp
+core core.*
+
+# Temporary build artifacts
+*.lo *.la *.lai *.Plo *.Po
+*.gch *.pch
+
+# IDE & OS junk
+.vscode/ .idea/
+*.swp *.swo *~
+Thumbs.db .DS_Store
+*.log *.tmp
+
+# Code coverage
+*.gcda *.gcno *.gcov
+
+# Archives
+*.zip *.tar.gz *.rar *.7z
