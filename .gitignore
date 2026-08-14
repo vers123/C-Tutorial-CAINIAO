@@ -1,9 +1,12 @@
-# 1. Build output directories
+# Build output directories
 build/
 */build/
 **/build/
 
-# 2. Compiled object files and executables
+# src/*/*
+*/src/*/
+
+# Compiled object files and executables
 *.o
 *.obj
 *.exe
@@ -13,7 +16,7 @@ build/
 *.a
 *.lib
 
-# 3. Debug symbols and core dumps
+# Debug symbols and core dumps
 *.dSYM/
 *.pdb
 *.idb
@@ -22,7 +25,7 @@ build/
 core
 core.*
 
-# 4. Intermediate build artifacts
+# Intermediate build artifacts
 *.lo
 *.la
 *.lai
@@ -31,7 +34,7 @@ core.*
 *.gch
 *.pch
 
-# 5. IDE and OS junk
+# IDE and OS junk
 .vscode/
 .idea/
 *.swp
@@ -41,14 +44,14 @@ Thumbs.db
 .DS_Store
 Desktop.ini
 
-# 6. Logs, temporary, and coverage files
+# Logs, temporary, and coverage files
 *.log
 *.tmp
 *.gcda
 *.gcno
 *.gcov
 
-# 7. Packaged archives
+# Packaged archives
 *.zip
 *.tar.gz
 *.rar
